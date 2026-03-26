@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FDC2EAF92F6B7F6000496404 /* SpringPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SpringPod.app; path = "/Users/taqarihill510/Desktop/Taqari-Spring-Quarter/MobileDEV/SpringPod/build/Debug/SpringPod.app"; sourceTree = "<absolute>"; };
+		FD9CDE482F74BE5600721C95 /* SpringPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		FDC2EB0C2F74B7FA00496404 /* Exceptions for "SpringPod" folder in "SpringPod" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Untitled.swift,
-			);
-			target = FDC2EAF82F6B7F6000496404 /* SpringPod */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FDC2EAFB2F6B7F6000496404 /* SpringPod */ = {
+		FD9CDE4A2F74BE5600721C95 /* SpringPod */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				FDC2EB0C2F74B7FA00496404 /* Exceptions for "SpringPod" folder in "SpringPod" target */,
-			);
 			path = SpringPod;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FDC2EAF62F6B7F6000496404 /* Frameworks */ = {
+		FD9CDE452F74BE5600721C95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,74 +29,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FDC2EAF02F6B7F6000496404 = {
+		FD9CDE3F2F74BE5600721C95 = {
 			isa = PBXGroup;
 			children = (
-				FDC2EAFB2F6B7F6000496404 /* SpringPod */,
+				FD9CDE4A2F74BE5600721C95 /* SpringPod */,
+				FD9CDE492F74BE5600721C95 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		FD9CDE492F74BE5600721C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD9CDE482F74BE5600721C95 /* SpringPod.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FDC2EAF82F6B7F6000496404 /* SpringPod */ = {
+		FD9CDE472F74BE5600721C95 /* SpringPod */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FDC2EB042F6B7F6100496404 /* Build configuration list for PBXNativeTarget "SpringPod" */;
+			buildConfigurationList = FD9CDE532F74BE5700721C95 /* Build configuration list for PBXNativeTarget "SpringPod" */;
 			buildPhases = (
-				FDC2EAF52F6B7F6000496404 /* Sources */,
-				FDC2EAF62F6B7F6000496404 /* Frameworks */,
-				FDC2EAF72F6B7F6000496404 /* Resources */,
+				FD9CDE442F74BE5600721C95 /* Sources */,
+				FD9CDE452F74BE5600721C95 /* Frameworks */,
+				FD9CDE462F74BE5600721C95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FDC2EAFB2F6B7F6000496404 /* SpringPod */,
+				FD9CDE4A2F74BE5600721C95 /* SpringPod */,
 			);
 			name = SpringPod;
 			packageProductDependencies = (
 			);
 			productName = SpringPod;
-			productReference = FDC2EAF92F6B7F6000496404 /* SpringPod.app */;
+			productReference = FD9CDE482F74BE5600721C95 /* SpringPod.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FDC2EAF12F6B7F6000496404 /* Project object */ = {
+		FD9CDE402F74BE5600721C95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
-					FDC2EAF82F6B7F6000496404 = {
+					FD9CDE472F74BE5600721C95 = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
 			};
-			buildConfigurationList = FDC2EAF42F6B7F6000496404 /* Build configuration list for PBXProject "SpringPod" */;
+			buildConfigurationList = FD9CDE432F74BE5600721C95 /* Build configuration list for PBXProject "SpringPod" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = FDC2EAF02F6B7F6000496404;
+			mainGroup = FD9CDE3F2F74BE5600721C95;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = FDC2EAF02F6B7F6000496404;
+			productRefGroup = FD9CDE492F74BE5600721C95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FDC2EAF82F6B7F6000496404 /* SpringPod */,
+				FD9CDE472F74BE5600721C95 /* SpringPod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FDC2EAF72F6B7F6000496404 /* Resources */ = {
+		FD9CDE462F74BE5600721C95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -119,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FDC2EAF52F6B7F6000496404 /* Sources */ = {
+		FD9CDE442F74BE5600721C95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FDC2EB022F6B7F6100496404 /* Debug */ = {
+		FD9CDE512F74BE5700721C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +186,7 @@
 			};
 			name = Debug;
 		};
-		FDC2EB032F6B7F6100496404 /* Release */ = {
+		FD9CDE522F74BE5700721C95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +239,7 @@
 			};
 			name = Release;
 		};
-		FDC2EB052F6B7F6100496404 /* Debug */ = {
+		FD9CDE542F74BE5700721C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -285,7 +281,7 @@
 			};
 			name = Debug;
 		};
-		FDC2EB062F6B7F6100496404 /* Release */ = {
+		FD9CDE552F74BE5700721C95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -330,25 +326,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FDC2EAF42F6B7F6000496404 /* Build configuration list for PBXProject "SpringPod" */ = {
+		FD9CDE432F74BE5600721C95 /* Build configuration list for PBXProject "SpringPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDC2EB022F6B7F6100496404 /* Debug */,
-				FDC2EB032F6B7F6100496404 /* Release */,
+				FD9CDE512F74BE5700721C95 /* Debug */,
+				FD9CDE522F74BE5700721C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDC2EB042F6B7F6100496404 /* Build configuration list for PBXNativeTarget "SpringPod" */ = {
+		FD9CDE532F74BE5700721C95 /* Build configuration list for PBXNativeTarget "SpringPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDC2EB052F6B7F6100496404 /* Debug */,
-				FDC2EB062F6B7F6100496404 /* Release */,
+				FD9CDE542F74BE5700721C95 /* Debug */,
+				FD9CDE552F74BE5700721C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FDC2EAF12F6B7F6000496404 /* Project object */;
+	rootObject = FD9CDE402F74BE5600721C95 /* Project object */;
 }
